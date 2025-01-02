@@ -33,3 +33,10 @@ body {
   line-height: 1.75rem;
   color: rgb(64, 64, 64);
 }
+
+.headingProductsTitle {
+  font-family: 'Bauhaus 93';
+  font-size: 3rem;
+  line-height: 1.75rem;
+  color: rgb(64, 64, 64);
+}
