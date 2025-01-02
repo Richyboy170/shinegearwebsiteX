@@ -27,6 +27,13 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'CmPrasanmit';
+  src: url('/fonts/CmPrasanmit Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .headingShirtsCard {
   font-family: 'Bauhaus 93';
   font-size: 2rem;
@@ -38,5 +45,22 @@ body {
   font-family: 'Bauhaus 93';
   font-size: 3rem;
   line-height: 1.75rem;
+  color: rgb(64, 64, 64);
+}
+
+.heading2ProductsTitle {
+  font-family: 'Bauhaus 93';
+  font-size: 2.5rem;
+  line-height: 1.75rem;
+  color: rgb(64, 64, 64);
+}
+
+.Eng {
+  font-family: 'Bauhaus 93';
+  color: rgb(64, 64, 64);
+}
+
+.Thai {
+  font-family: 'CmPrasanmit';
   color: rgb(64, 64, 64);
 }

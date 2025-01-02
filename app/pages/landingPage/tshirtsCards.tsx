@@ -13,7 +13,7 @@ export default function TshirtsCard(){
                     <p className="headingShirtsCard">White Tees</p>
                 </div>
                 <div className="flex justify-center items-center">
-                    <Link href="/pages/productPage/GoldWhite">
+                    <Link href="/pages/productPage">
                         <Image
                             src="/images/GWhite.png"
                             alt="Gold & White Tee"
