@@ -1,12 +1,13 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar(){
     return (
         <div className="w-screen h-15 flex grid grid-cols-10 gap-4 p-2 bg-cover" style={{ backgroundImage: "url('/images/heroImage.png')"}}>
             <div>
-                <p className="headingShirtsCard text-white" style={{ fontFamily: 'Bauhaus 93'}}>ShineGear</p>
+                <Link href="/" className="headingShirtsCard text-white pl-3" style={{ fontFamily: 'Bauhaus 93'}} >ShineGear</Link>
                 {/* <Image
                     src="/images/navbarImage.png"
                     alt="logo"

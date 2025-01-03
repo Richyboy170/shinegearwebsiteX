@@ -6,6 +6,7 @@ export default function ProductPage(){
         <div>
             <Navbar/>
             <GWhite/>
+            <div className="h-20 bg-white border border-white"></div>
         </div>
     )
 }

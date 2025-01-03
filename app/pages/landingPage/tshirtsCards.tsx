@@ -3,13 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function TshirtsCard(){
-    return(
-        <div className="flex grid grid-cols-4 gap-4">
-
+export default function TshirtsCard() {
+    return (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {/* White Tees */}
-            <div className="flex grid grid-rows-4">
-                <div className=" flex justify-center place-items-center pt-10">
+            <div className="grid grid=rows-3 md:grid-rows-4">
+                <div className="flex justify-center place-items-center p-5 md:p-0 md:pt-10">
                     <p className="headingShirtsCard">White Tees</p>
                 </div>
                 <div className="flex justify-center items-center">
@@ -19,7 +18,7 @@ export default function TshirtsCard(){
                             alt="Gold & White Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
@@ -30,16 +29,16 @@ export default function TshirtsCard(){
                             alt="White & White Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
             </div>
 
             {/* Blue Tees */}
-            <div className="flex grid grid-rows-4">
+            <div className="grid grid=rows-3 md:grid-rows-4">
                 <div></div>
-                <div className=" flex justify-center place-items-center pt-10">
+                <div className="flex justify-center place-items-center p-5 md:p-0 md:pt-10">
                     <p className="headingShirtsCard">Blue Tees</p>
                 </div>
                 <div className="flex justify-center items-center">
@@ -49,7 +48,7 @@ export default function TshirtsCard(){
                             alt="Gold & Blue Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
@@ -60,15 +59,15 @@ export default function TshirtsCard(){
                             alt="White & Blue Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
             </div>
 
             {/* Pink Tees */}
-            <div className="flex grid grid-rows-4">
-                <div className=" flex justify-center place-items-center pt-10">
+            <div className="grid grid=rows-3 md:grid-rows-4">
+                <div className="flex justify-center place-items-center p-5 md:p-0 md:pt-10">
                     <p className="headingShirtsCard">Pink Tees</p>
                 </div>
                 <div className="flex justify-center items-center">
@@ -78,7 +77,7 @@ export default function TshirtsCard(){
                             alt="Gold & Pink Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
@@ -89,16 +88,16 @@ export default function TshirtsCard(){
                             alt="White & Pink Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
             </div>
 
             {/* Oat Tees */}
-            <div className="flex grid grid-rows-4">
+            <div className="grid grid=rows-3 md:grid-rows-4">
                 <div></div>
-                <div className=" flex justify-center place-items-center pt-10">
+                <div className="flex justify-center place-items-center p-5 md:p-0 md:pt-10">
                     <p className="headingShirtsCard">Oat Tees</p>
                 </div>
                 <div className="flex justify-center items-center">
@@ -108,7 +107,7 @@ export default function TshirtsCard(){
                             alt="Gold & Oat Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
@@ -119,12 +118,11 @@ export default function TshirtsCard(){
                             alt="White & Oat Tee"
                             width={300}
                             height={300}
-                            className=""
+                            className="max-w-full h-auto"
                         />
                     </Link>
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
